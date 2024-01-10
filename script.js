@@ -11,7 +11,7 @@ function random(items) {
 };
 
 img.addEventListener('click', () => {
-  img.src = `img/${random(arr)}.svg`;
+  img.src = `./img/${random(arr)}.svg`;
 });
 
 // ==================
@@ -19,7 +19,7 @@ let timer1, timer2;
 let count = 0;
 
 button.addEventListener('click', () => {
-  img.src = `img/${random(arr)}.svg`;
+  img.src = `./img/${random(arr)}.svg`;
 
   count++
   console.log(count);
